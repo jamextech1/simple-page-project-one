@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      60deg,
+      rgba(61, 58, 63, 0.9),
+      rgba(55, 50, 58, 0.9)
+    ),
+    url(images/zbynek-burival-V4ZYJZJ3W4M-unsplash.jpg);
+  margin-bottom: 100px;
+}
+.fa-thin.fa-handshake-angle {
+  font-size: 24px;
+  color: white;
+}
+svg {
+  width: 50px;
+  background-color: rgba(0, 131, 253, 0.2);
+  padding: 7px;
+  border-radius: 50%;
+  color: rgba(0, 131, 253, 0.99);
+}
+.second_svg {
+  width: 30px;
+  padding: 5px;
+}
+h2 {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+img {
+  width: 100%;
+}
+article {
+  margin-top: 50px;
+}
+.article_container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #fafafa;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.article_img {
+  border-radius: 5px;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 9px;
+}
+.article_first_p {
+  margin-left: 60px;
+  margin-bottom: 18px;
+  font-size: 18px;
+  opacity: 92%;
+}
+.article_second_p {
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+.article_second_p.no_margin {
+  margin-bottom: 0;
+}
+.first_article_content a {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #1b1a1a;
+  color: #fafafa;
+  padding: 15px;
+  border-radius: 30px;
+  margin-bottom: 92px;
+}
+
+h3 {
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.learn_more_btn {
+  box-shadow: 0 4px 30px rgba(55, 50, 58, 0.3);
+}
+.learn_more_btn:hover {
+  background-color: rgba(26, 24, 24, 0.884);
+}
+.learn_more_btn:active {
+  background-color: rgba(0, 131, 253, 0.959);
+}
